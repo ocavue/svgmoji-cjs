@@ -9,3 +9,11 @@ svgmoji doesn't provide a valid ESM package. We need to make sure that Node.js a
 ```
 npm install @ocavue/svgmoji-cjs
 ```
+
+## Usage 
+
+```diff
+- import { Blobmoji, Notomoji, Openmoji, Twemoji } from 'svgmoji'
++ import svgmoji from 'svgmoji'
++ const { Blobmoji, Notomoji, Openmoji, Twemoji } = svgmoji
+```
