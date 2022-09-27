@@ -6,5 +6,8 @@
   "types": "index.d.ts",
   "dependencies": {
     "svgmoji": "^3.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
