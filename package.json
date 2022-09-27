@@ -1,0 +1,10 @@
+{
+  "name": "@ocavue/svgmoji-cjs",
+  "description": "A simple CJS wrapper for the svgmoji library",
+  "version": "0.1.0",
+  "main": "index.cjs",
+  "types": "index.d.ts",
+  "dependencies": {
+    "svgmoji": "^3.2.0"
+  }
+}
